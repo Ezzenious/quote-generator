@@ -48,3 +48,13 @@ const quotes = [
     person: `Lao Tzu`,
   },
 ];
+
+function generateQuote() {
+  let random = Math.floor(Math.random() * quotes.length);
+
+  quote.innerText = quotes[random].quote;
+  person.innerText = quotes[random].person;
+}
+
+document.addEventListener("DOMContentLoaded", generateQuote);
+btn.addEventListener("click", generateQuote);
