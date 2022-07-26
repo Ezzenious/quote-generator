@@ -50,10 +50,10 @@ const quotes = [
 ];
 
 function generateQuote() {
-  let random = Math.floor(Math.random() * quotes.length);
+  let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-  quote.innerText = quotes[random].quote;
-  person.innerText = quotes[random].person;
+  quote.innerText = randomQuote.quote;
+  person.innerText = randomQuote.person;
 }
 
 document.addEventListener("DOMContentLoaded", generateQuote);
