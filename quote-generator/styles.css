@@ -18,3 +18,14 @@ body {
     width: 550px;
     height: 450px;
 }
+
+.header {
+  font-size: 1.2rem;
+  border: solid 2px #fff;
+  color: #fff;
+  background-color: #262626;
+  padding: 5px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 5px;
+}
